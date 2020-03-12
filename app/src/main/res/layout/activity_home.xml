@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/tittle"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/light"
+        android:text="@string/our_menu"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp">
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/btn_ColdDrinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/degradado"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/cold_drinks"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/btn_HotDrinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/degradado"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/hot_drinks"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_Sweets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/sweets"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_Salties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/salties"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_Combos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/combos"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_Personalized"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/personalized"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
